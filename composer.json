@@ -1,0 +1,24 @@
+{
+    "name": "wandx/support",
+    "description": "support helper for wandx laravel project",
+    "type": "laravel-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wandx\\Support\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wandy purnomo",
+            "email": "wandypurnomo92@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^6.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.6"
+    }
+}
