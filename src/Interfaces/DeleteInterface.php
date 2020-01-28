@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Wandx\Support\Interfaces;
+namespace Wandxx\Support\Interfaces;
 
 
 interface DeleteInterface

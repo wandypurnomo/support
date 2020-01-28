@@ -1,6 +1,6 @@
 <?php
 
-namespace Wandx\Support\Traits;
+namespace Wandxx\Support\Traits;
 
 use Ramsey\Uuid\Uuid;
 

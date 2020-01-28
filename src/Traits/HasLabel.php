@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Wandx\Support\Traits;
+namespace Wandxx\Support\Traits;
 
 
 trait HasLabel

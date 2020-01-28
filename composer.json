@@ -1,11 +1,11 @@
 {
-    "name": "wandx/support",
+    "name": "wandxx/support",
     "description": "support helper for wandx laravel project",
     "type": "laravel-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Wandx\\Support\\": "src/"
+            "Wandxx\\Support\\": "src/"
         }
     },
     "authors": [

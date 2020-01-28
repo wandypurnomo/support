@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Wandx\Support\Constants;
+namespace Wandxx\Support\Constants;
 
 
-use Wandx\Support\Interfaces\ConstantInterface;
-use Wandx\Support\Traits\HasLabel;
+use Wandxx\Support\Interfaces\ConstantInterface;
+use Wandxx\Support\Traits\HasLabel;
 
 class ActiveStatus implements ConstantInterface
 {
