@@ -6,7 +6,7 @@ namespace Wandxx\Support\Interfaces;
 
 use Illuminate\Database\Eloquent\Model;
 
-interface StoreInterface
+interface StorableInterface
 {
     public function store(DefaultRequestInterface $request): Model;
 }

@@ -6,7 +6,7 @@ namespace Wandxx\Support\Interfaces;
 
 use Illuminate\Database\Eloquent\Model;
 
-interface FindInterface
+interface FindableInterface
 {
     public function find(string $id): Model;
 }

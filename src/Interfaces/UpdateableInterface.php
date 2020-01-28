@@ -6,7 +6,7 @@ namespace Wandxx\Support\Interfaces;
 
 use Illuminate\Database\Eloquent\Model;
 
-interface UpdateInterface
+interface UpdateableInterface
 {
     public function update(DefaultRequestInterface $request, string $id): Model;
 }
