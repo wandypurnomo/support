@@ -9,5 +9,5 @@ use Illuminate\Http\Request;
 
 interface GetAllInterface
 {
-    public function getAll(Request $request): LengthAwarePaginator;
+    public function getAll(Request $request,?string $userId): LengthAwarePaginator;
 }
