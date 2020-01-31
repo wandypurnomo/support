@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 
 interface StorableInterface
 {
-    public function store(DefaultRequestInterface $request): Model;
+    public function store(array $data): Model;
 }
