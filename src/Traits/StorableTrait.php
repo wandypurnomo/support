@@ -9,8 +9,8 @@ use Wandxx\Support\Interfaces\DefaultRequestInterface;
 
 trait StorableTrait
 {
-    public function store(DefaultRequestInterface $request): Model
+    public function store(array $data): Model
     {
-        return $this->_model->newQuery()->create($request->data());
+        return $this->_model->newQuery()->create($data);
     }
 }

@@ -9,10 +9,10 @@ use Wandxx\Support\Interfaces\DefaultRequestInterface;
 
 trait UpdateableTrait
 {
-    public function update(DefaultRequestInterface $request, string $id): Model
+    public function update(array $data, string $id): Model
     {
         $model = $this->_model->newQuery()->findOrFail($id);
-        $model->update($request->data());
+        $model->update($data);
         return $model;
     }
 }
