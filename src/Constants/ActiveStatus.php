@@ -14,7 +14,7 @@ class ActiveStatus implements ConstantInterface
     const ACTIVE = 1;
     const INACTIVE = 0;
 
-    public function labels(): array
+    public static function labels(): array
     {
         return [
             self::ACTIVE => "Active",

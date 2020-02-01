@@ -6,7 +6,7 @@ namespace Wandxx\Support\Interfaces;
 
 interface ConstantInterface
 {
-    public function label(int $id): string;
+    public static function label(int $id): string;
 
-    public function labels(): array;
+    public static function labels(): array;
 }
